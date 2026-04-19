@@ -19,6 +19,7 @@ export const typeDefs = `#graphql
     }
 
     type Mutation {
-        addBook(title: String!, publishedYear: Int, authorId: ID! ): Book!
+        addBook(title: String!, publishedYear: Int, authorId: ID!): Book!
     }
-`
+     
+`;
